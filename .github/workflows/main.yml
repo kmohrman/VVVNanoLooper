@@ -10,5 +10,10 @@ jobs:
   Full_Analysis:
     runs-on: ubuntu-latest
     steps:
+      - name: Hello world
+        run: echo Hello world
       - name: Checkout repository
         uses: actions/checkout@v2
+      - name: Compile
+        run: pwd
+
