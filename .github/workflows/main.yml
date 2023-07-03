@@ -20,5 +20,8 @@ jobs:
         run: | 
           pwd
           ls
+          cd VVVNanoLooper/rooutil
+          make -j
+          cd ..
           make -j
 
