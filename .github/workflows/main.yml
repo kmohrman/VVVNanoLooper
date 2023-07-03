@@ -19,5 +19,6 @@ jobs:
       - name: Compile
         run: | 
           pwd
+          ls
           make -j
 
