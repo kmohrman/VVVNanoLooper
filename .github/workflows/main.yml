@@ -21,6 +21,8 @@ jobs:
           pwd
           ls
           cd rooutil
+          pwd
+          ls
           make -j
           cd ..
           make -j
