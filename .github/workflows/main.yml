@@ -43,7 +43,10 @@ jobs:
           echo Compile rooutil
           make -j
           echo DONE Compile rooutil
-          cd ../analysis
+          cd ..
+          echo Run setup
+          source setup.sh
+          cd analysis
           echo Compile analysis
           make -j
           echo DONE Compile Compile analysis
