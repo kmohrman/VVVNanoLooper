@@ -8,9 +8,11 @@ on:
 jobs:
 
   Full_Analysis:
+
     runs-on: ubuntu-latest
     container:
-        image: rootproject/root:6.22.00-ubuntu20.04
+        image: rootproject/root
+
     steps:
       - name: Hello world
         run: echo Hello world
