@@ -19,6 +19,6 @@ export XGBOOST_PATH=${xgboost_path}
 pwd
 ls
 cd ProjectMetis
-source setup.sh
+#source setup.sh
 cd ..
 
