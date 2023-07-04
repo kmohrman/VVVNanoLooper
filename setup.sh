@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-source rooutil/bin/thisrooutil.sh
-source rooutil/bin/setuproot.sh
+#source rooutil/bin/thisrooutil.sh
+#source rooutil/bin/setuproot.sh
 #export condorPath="/home/users/kdownham/Triboson/VVVNanoLooper/condor"
 export skimDir="/ceph/cms/store/user/kdownham/skimOutput/3LepTau_4Lep"
 #export looperOutput="/ceph/cms/store/user/kdownham/VVVAnalysis/051723"
