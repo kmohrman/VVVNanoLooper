@@ -19,7 +19,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          submodules: recursive
+          #submodules: recursive
+          git submodule update --init --recursive
       - name: Compile
         run: | 
           pwd
