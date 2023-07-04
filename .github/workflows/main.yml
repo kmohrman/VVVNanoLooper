@@ -43,8 +43,8 @@ jobs:
           echo Compile rooutil
           make -j
           echo DONE Compile rooutil
-          cd ..
-          echo Compile VVV
+          cd ../analysis
+          echo Compile analysis
           make -j
-          echo DONE Compile VVV
+          echo DONE Compile Compile analysis
 
