@@ -40,7 +40,11 @@ jobs:
           cd rooutil
           pwd
           ls
+          echo Compile rooutil
           make -j
+          echo DONE Compile rooutil
           cd ..
+          echo Compile VVV
           make -j
+          echo DONE Compile VVV
 
