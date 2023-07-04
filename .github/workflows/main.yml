@@ -20,6 +20,8 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Checkout submodules
         run: | 
           #submodules: recursive
           git submodule update --init --recursive
