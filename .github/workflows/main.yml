@@ -45,7 +45,8 @@ jobs:
           echo DONE Compile rooutil
           cd ..
           echo Run setup
-          source setup.sh
+          chmod +x setup.sh
+          ./setup.sh
           cd analysis
           echo Compile analysis
           make -j
