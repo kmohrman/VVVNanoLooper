@@ -16,6 +16,8 @@ xgboost_version="${xgboost_version%%\"*}"
 xgboost_path="/cvmfs/cms.cern.ch/${SCRAM_ARCH}/external/py3-xgboost/${xgboost_version}/lib/python3.8/site-packages/xgboost"
 export LD_LIBRARY_PATH=${xgboost_path}/lib:$LD_LIBRARY_PATH
 export XGBOOST_PATH=${xgboost_path}
+pwd
+ls
 cd ProjectMetis
 source setup.sh
 cd ..
